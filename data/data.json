@@ -1,0 +1,178 @@
+{
+  "Header": {
+    "title": "ПРИЕМ В ТВЕРИ И ТВЕРСКОЙ ОБЛАСТИ",
+    "paragraph": "Уважаемые гости Твери и Тверской области!!! Приглашаем Вас в увлекательные путешествия по городам и весям Земли Верхневолжской! У нас есть, что посмотреть и о чем услышать!"
+  },
+  "About": {
+    "paragraph": "Основными видами нашей деятельности являются внутренний и международный туризм. Мы работаем с самыми надёжными и хорошо зарекомендовавшими себя туроператорами. «АструмТревел» является туроператором по внутреннему туризму, наш  реестровый номер в Едином федеральном реестре туроператоров  ВНТ 013003 Большой опыт работы позволяет организовывать разнообразные туры: поездки в различные театры, музеи, крупные торговые центры, экскурсионные поездки в Москву и Подмосковье, Санкт-Петербург, Белоруссию, Карелию, по Золотому кольцу России и т.д. и пляжный отдых на Черноморском побережье Краснодарского края. Все это с выездом из Твери на собственных туристических автобусах. Наша главная цель –качественно удовлетворить запросы клиента, с применением индивидуального подхода. Наш огромный опыт в отрасли позволяет говорить о высококачественных услугах, оказываемых агентством. Наш девиз  - профессионализм и надёжность.",
+    "Why": ["Опыт и надежность", "Безопасность", "Комфорт"],
+    "Why2": [
+      "Собственный автобусный парк",
+      "Профессиональная команда",
+      "Доступные цены"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-subway",
+      "name": "ТУРЫ И ЭКСКУРСИИ",
+      "text": "В течение многих лет работы в Твери турфирма Аструм-Тревел зарекомендовала себя как настоящий профессионал в сфере туризма и отдыха. "
+    },
+    {
+      "icon": "fa fa-sun-o",
+      "name": "Автобусом к морю из Твери",
+      "text": "Предлагаем вам спланировать свое путешествие уже сейчас и обратить внимание на автобусные туры к Черному морю из Твери."
+    },
+    {
+      "icon": "fa fa-graduation-cap",
+      "name": "Школьные туры и экскурсии",
+      "text": "Cобственный автобусный парк, состоящий из комфортабельных автобусов и предназначенный для перевозки взрослых и детей, лицензированная деятельность и обязательное страхование пассажиров во время перевозки обеспечат путешественникам безопасность и комфорт."
+    },
+    {
+      "icon": "fa fa-area-chart",
+      "name": "Пассажирские перевозки",
+      "text": "Пассажирские перевозки автобусами – один из основных видов перевозок. Многие туристы высоко оценили преимущества автобусных перевозок и путешествуют по России и Европе."
+    },
+    {
+      "icon": "fa fa-briefcase",
+      "name": "АРЕНДА АВТОБУСА В ТВЕРИ И МОСКОВСКОЙ ОБЛАСТИ",
+      "text": "Туристическая компания «Аструм Тревел» предлагает удобный и выгодный способ аренды автобусов"
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}

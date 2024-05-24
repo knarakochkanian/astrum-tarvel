@@ -1,95 +1,63 @@
-import Image from "next/image";
+'use client'
+import React, { useState, useEffect } from "react";
+import { Navigation } from "../components/navigation";
+import { Header } from "../components/header";
+import { About } from "../components/about";
+import { Services } from "../components/services";
+import { Gallery } from "../components/gallery";
+import { Testimonials } from "../components/testimonials";
+import { Team } from "../components/Team";
+import { Contact } from "../components/contact";
+import JsonData from "../../data/data.json";
 import styles from "./page.module.css";
 
+interface LandingPageData {
+    Header: {
+        title: string;
+        paragraph: string;
+    };
+    About: {
+        paragraph: string;
+        Why: string[];
+        Why2: string[];
+    };
+    Gallery: { title: string; largeImage: string; smallImage: string }[];
+    Services: { icon: string; name: string; text: string }[];
+    Testimonials: { img: string; text: string; name: string }[];
+    Team: { img: string; name: string; job: string }[];
+    Contact: {
+        address: string;
+        phone: string;
+        email: string;
+        facebook: string;
+        twitter: string;
+        youtube: string;
+    };
+    Features: { icon: string; title: string; text: string }[];
+}
+
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    const [landingPageData, setLandingPageData] = useState<LandingPageData | null>(null);
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+    useEffect(() => {
+        setLandingPageData(JsonData);
+    }, []);
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+    if (!landingPageData) {
+        // Handle the case where landingPageData is still null
+        return null; // or a loading state, or any other fallback
+    }
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+    return (
+        <main className={styles.main}>
+            <Navigation />
+            <Header data={landingPageData.Header} />
+            <About data={landingPageData.About} />
+            <Services data={landingPageData.Services} />
+            <Gallery data={landingPageData.Gallery} />
+            <Testimonials data={landingPageData.Testimonials} />
+            <Team data={landingPageData.Team} />
+            <Contact data={landingPageData.Contact} />
+        </main>
+    );
 }
